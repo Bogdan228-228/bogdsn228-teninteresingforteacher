@@ -1,0 +1,62 @@
+@charset "utf-8";
+* {
+    margin-top: 1%;
+    margin-left: 10px;
+}
+
+hr {
+    display: block;
+    border: 0;
+    height: 1px;
+    border-top: 1px solid #ccc;
+    padding: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.h1-fact {
+    padding: 10px;
+    font-family: Comic Sans MS, sans-serif;
+    color: aqua;
+    transition: all 0.5s;
+    background-color: rgb(75, 216, 75);
+}
+
+.h1-fact:hover {
+    background-color: hsla(231, 34%, 43%, 0.663);
+    color: rgb(199, 201, 75);
+}
+
+#facti {
+    transition: all 0.5s;
+}
+
+.option {
+    color: red;
+    font-family: Comic Sans MS, sans-serif;
+    display: block;
+}
+
+.option-1 {
+    color: darkgoldenrod;
+    background-color: rgb(243, 241, 241);
+    
+}
+
+.option-2 {
+    color: seagreen;
+    background-color: rgb(243, 241, 241);
+    background-size: 0px;
+}
+
+li {
+    list-style: none;
+    
+}
+
+.fix {
+    color: rgb(59, 131, 136);
+    text-align: right;
+}
